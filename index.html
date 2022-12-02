@@ -10,165 +10,171 @@
     <link rel="icon" type="image/x-icon" href="./icones/O.svg">
     <title>OurFin - Fintech</title>
   </head>
-  <body>
-        <div class="container-menu col-md-2">
-            <div class="menu-content">
-                <h1 class="ourfin-full logo">OurFin</h1>
-                <h1 class="ourfin-simplified logo">OF</h1>
-                    <section class="menu-section">
-                        <div class=" menu-btns add-btn">
-                            <div class="inner-menu-btn">
-                            <img class="icon"src="./icones/plus.svg">
-                            <p class="add-btn-txt">Add Novo</p>
+  <body class="d-flex container-fluid">
+    <div class="menu d-none d-sm-block col-md-2">
+            <div class="menu-content d-flex flex-column">
+                <h1 class="logo  d-none d-xxl-block">OurFin</h1>
+                <h1 class="mini-logo  d-xxl-none d-block">OF</h1>
+                    <section class="section-btns d-flex flex-column">
+                        <div class="btn add-btn ">
+                            <div class="inner-btn d-flex flex-row align-items-center">
+                            <img class="icon" src="./icones/plus.svg">
+                            <p class="font-add d-none d-xxl-block">Add Novo</p>
                             </div>
                         </div>
-                        <div class="menu-btns selected-btn border-gradient ">
-                            <div class="inner-menu-btn">
+                        <div class="border-gradient">
+                            <div class="inner-btn d-flex flex-row align-items-center">
                             <img class="icon" src="./icones/home.svg">
-                            <p class="btn-txt text-gradient">Dashboard</p>
+                            <p class="text-gradient font-menu  d-none d-xxl-block">Dashboard</p>
                             </div>
-                        </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        </div class="inner-btn d-flex flex-row align-items-center">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/wallet.svg">
-                            <p class="btn-txt">Carteiras</p>
+                            <p class="font-menu  d-none d-xxl-block">Carteiras</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/Swap.svg">
-                            <p class="btn-txt">Transações</p>
+                            <p class="font-menu  d-none d-xxl-block">Transações</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/credit-card.svg">
-                            <p class="btn-txt">Cartões</p>
+                            <p class="font-menu  d-none d-xxl-block">Cartões</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/users.svg">
-                            <p class="btn-txt">Amigos</p>
+                            <p class="font-menu  d-none d-xxl-block">Amigos</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/Objectives.svg">
-                            <p class="btn-txt">Objetivos</p>
+                            <p class="font-menu  d-none d-xxl-block">Objetivos</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">    
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">    
                             <img class="icon" src="./icones/trending-up.svg">
-                            <p class="btn-txt">Investimentos</p>
+                            <p class="font-menu  d-none d-xxl-block">Investimentos</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/pie-chart.svg">
-                            <p class="btn-txt">Relatórios</p>
+                            <p class="font-menu  d-none d-xxl-block">Relatórios</p>
                             </div>
                         </div>
-                        <div class="menu-btns">
-                            <div class="inner-menu-btn">
+                        <div class="btn">
+                            <div class="inner-btn d-flex flex-row align-items-center ">
                             <img class="icon" src="./icones/more-horizontal.svg">
-                            <p class="btn-txt">Mais opções</p>
+                            <p class="font-menu  d-none d-xxl-block">Mais opções</p>
                             </div>
                         </div>
-                        <div class="menu-btns"> 
+                        <div class="btn"> 
                             <a href="./login.html">
-                                <div class="inner-menu-btn">
+                                <div class="inner-btn d-flex flex-row align-items-center ">
                                     <img class="icon" src="./icones/log-out.svg">
-                                    <p class="btn-txt">Sair</p>
+                                    <p class="font-menu  d-none d-xxl-block">Sair</p>
                                 </div>
                             </a>
                         </div>
                     </section>
             </div>
     </div>
-    <div class="container-body col-md-10">
-        <div class="container-header">
-            <img class="menu-icon" src="./icones/menu.svg">
-            <div class="month-selector border-gradient">
-                <select id="months" class="select-month">
-                    <option class="option" value="Janeiro">Janeiro</option>        
-                    <option class="option" value="Fevereiro">Fevereiro</option>        
-                    <option class="option" value="Março">Março</option>        
-                    <option class="option" value="Abril">Abril</option>        
-                    <option class="option" value="Maio">Maio</option>  
-                    <option class="option" value="Junho">Junho</option>  
-                    <option class="option" value="Julho">Julho</option>  
-                    <option class="option" value="Agosto">Agosto</option>  
-                    <option class="option" value="Setembro">Setembro</option>  
-                    <option class="option" value="Outubro">Outubro</option>  
-                    <option class="option" value="Novembro">Novembro</option>  
-                    <option class="option" selected value="Dezembro">Dezembro</option>     
-                </select> 
-                <img class="icon-arrow" src="./icones/chevron-down.svg">
+    <div class="col-md-10">
+        <div class="header d-flex flex-row align-items-center">
+            <img class="icon-menu d-block d-sm-none" src="./icones/menu.svg">
+            <div class="dropdown">
+                <button class="btn border-gradient dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <p class="select-month font-sm">Selecione o mês</p>
+                  </button>
+                <ui class="dropdown-menu">
+                    <li>Janeiro</li>        
+                    <li>Fevereiro</li>        
+                    <li>Março</li>        
+                    <li>Abril</li>        
+                    <li>Maio</li>  
+                    <li>Junho</li>  
+                    <li>Julho</li>  
+                    <li>Agosto</li>  
+                    <li>Setembro</li>  
+                    <li>Outubro</li>  
+                    <li>Novembro</li>  
+                    <li>Dezembro</li>     
+                </ui> 
             </div>
-            <div class="container-welcome">
-                <p class="hello-text">Olá Eduardo,</p><h3 class="welcome">Seja bem-vindo!</h3>
+            <div class="welcome d-none d-lg-block d-flex flex-column">
+                <p class="font-sm">Olá Eduardo,</p><h3 class="font-l">Seja bem-vindo!</h3>
             </div>
-            <div class="user">
-                <div class="notifications"><img src="./icones/topIcon.svg"></div>
-                <div class="user-pic">
-                    <img src="./icones/Ellipse 31.png">
+            <div class="user-infos d-flex flex-row align-items-center">
+                <div class=" d-flex flex-row ">
+                    <img class="notification" src="./icones/topIcon.svg">
                 </div>
-                <h2 class="user-name">Eduardo Silva</h2>
-                <img class="icon" src="./icones/chevron-down.svg">
-            </div>
+                    <div>
+                        <img class="user-photo" src="./icones/Ellipse 31.png">
+                    </div>
+                <h2 class="user-name font-m">Eduardo Silva</h2>
+                <img  src="./icones/chevron-down.svg">
+                </div>
         </div>
-        <div class="container-analytics-info">
-            <div class="col-md-8 container-analytics ">
-                <div class="container-balance-info">
-                    <div class="container-current-balance container-balance">
-                        <div class="container-balance-text">
-                            <p>Saldo atual</p>
-                            <h2 class="balance">R$17.500,00</h2> 
+        <div class="top-body d-flex flex-column flex-xl-row">
+            <div class="container-balance-graph col-xl-8 d-flex flex-column">
+                <div class="balance d-flex flex-row">
+                    <div class="main-balance-info d-flex flex-row">
+                        <div class=" d-flex flex-column">
+                            <p class="font-m">Saldo atual</p>
+                            <h2 class="font-l">R$17.500,00</h2> 
                         </div>
-                            <img class="balance-icons"src="./icones/green-arrow-up.svg">
+                            <img class="icon ballance-icon" src="./icones/green-arrow-up.svg">
                     </div>
-                    <div class="container-balance">
-                        <div class="container-balance-text">
-                            <p>Despesas</p>
-                            <h2 class="balance">R$7.000,00</h2> 
+                    <div class="balance-info middle d-flex flex-row align-items-center">
+                        <div class="d-flex flex-column">
+                            <p class="font-m">Despesas</p>
+                            <h2 class="font-l">R$7.000,00</h2> 
                         </div>
-                        <img class="balance-icons"src="./icones/red-arrow-down.svg">
+                        <img class="icon ballance-icon" src="./icones/red-arrow-down.svg">
                     </div>
-                    <div class="container-balance">
-                        <div class="container-balance-text">
-                            <p>Receitas</p>
-                            <h2 class="balance">R$24.500,00</h2> 
+                    <div class="balance-info right d-flex flex-row">
+                        <div class="d-flex flex-column">
+                            <p class="font-m">Receitas</p>
+                            <h2 class="font-l">R$24.500,00</h2> 
                         </div>
-                            <img class="balance-icons"src="./icones/green-arrow-up.svg">
+                        <img class="icon ballance-icon" src="./icones/green-arrow-up.svg">
                     </div>
                 </div>
-                <div class="container-report border-gradient">
-                    <div class="report">
-                        <div class="report-header">
-                            <h2 class="container-name">Relatório Geral</h2>
-                            <div class="period-selector">
-                                <select id="period" class="period">
-                                    <option class="option" value="Últimos12meses">Últimos 12 meses</option> 
-                                    <option class="option" value="Últimos6meses">Últimos 6 meses</option> 
-                                    <option class="option" value="Últimos3meses">Últimos 3 meses</option> 
-                                    <option class="option" value="Últimomes">Último mês</option> 
-                                </select>
-                                <img class="icon-calendar"src="./icones/Calendar.svg">
+                <div class="container-graph border-gradient d-flex flex-column">
+                    <div class="container-graph-info d-flex flex-column">
+                        <div class="graph-tittle d-flex flex-row">
+                            <h2 class="font-xl">Relatório Geral</h2>
+                            <div class="dropdown">
+                                <button class="btn border-gradient dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <p class="select-month font-sm">Selecione período</p>
+                                  </button>
+                                <ul class="dropdown-menu">
+                                    <li  value="Últimos12meses">Últimos 12 meses</li> 
+                                    <li  value="Últimos6meses">Últimos 6 meses</li> 
+                                    <li  value="Últimos3meses">Últimos 3 meses</li> 
+                                    <li  value="Últimomes">Último mês</li> 
+                                </ul>
+
                             </div>
                         </div>
-                        <div class="container-graph">
-                            <div class="value-y">
+                        <div class="d-flex flex-row">
+                            <div  class="graph-values d-flex flex-column">
                                 <p>30mil</p>
                                 <p>20mil</p>
                                 <p>10mil</p>
                                 <p>0</p>
                             </div>
-                            <div class="graph-months">
-                                <div class="graph ">
-            
-                                <table class="charts-css line show-3-secondary-axes" id="my-chart">
+                            <div class="graph-months d-flex flex-column">
+                                <div class="graph">
+                                    <table class="charts-css line show-3-secondary-axes" id="my-chart">
                                     <tbody>
                                         <tr>
                                           <td style="--start: 0.2; --size: 0.4"></td>
@@ -201,122 +207,143 @@
                                             <td style="--start: 0.7; --size: 0.35"></td>
                                           </tr>
                                           <tr>
-                                            <td style="--start: 0.35; --size: 0.5"></td>
+                                            <td style="--start: 0.35; --size: 0.58"></td>
                                           </tr>
                                       </tbody>
                                     </table>
                                 </div>
-                                <div class="months value-x">
-                                    <p class="month">Jan</p>
-                                    <p class="month">Fev</p>
-                                    <p class="month">Mar</p>
-                                    <p class="month">Abr</p>
-                                    <p class="month">Mai</p>
-                                    <p class="month">Jun</p>
-                                    <p class="month">Jul</p>
-                                    <p class="month">Ago</p>
-                                    <p class="month">Set</p>
-                                    <p class="month">Out</p>
-                                    <p class="month">Nov</p>
-                                    <p class="month">Dez</p>
+                                <div class="months d-flex flex-row">
+                                    <p>Jan</p>
+                                    <p>Fev</p>
+                                    <p>Mar</p>
+                                    <p>Abr</p>
+                                    <p>Mai</p>
+                                    <p>Jun</p>
+                                    <p>Jul</p>
+                                    <p>Ago</p>
+                                    <p>Set</p>
+                                    <p>Out</p>
+                                    <p>Nov</p>
+                                    <p>Dez</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>   
             </div>
-            <div class="container-info col-md-4">
-                <div class="container-card-bill">   
-                    <div class="card-bill-optn">
-                        <h2 class="container-name">Faturas</h2>
-                        <label class="radios">
-                            <input type="checkbox" name="radio-btn" class="radio-btn">
-                        </label>
-                    </div>
-                    <div class="cards-bills">
-                        <div class="bank">
-                            <div class="bank-infos">
-                                <div class="bank-logo"></div>
-                                <div class="bills-info">
-                                    <div class="bank-due-date">
-                                        <p class="bank-name">Nubank</p>
-                                        <div class="dot"></div>
-                                        <p class="due-date">Vence dia 05/12</p>
-                                    </div>
-                                    <p class="bill-value">R$400,00</p>
-                                </div>
+            <div class="col-xl-4 d-flex flex-column">   
+                <div class="container-bank-bills d-flex flex-column">
+                            <div class="bank-bills-header d-flex flex-row">
+                                <h2 class="font-xl">Faturas</h2>
+                                <label class="radios">
+                                    <input class="radio-btn" type="checkbox" name="radio-btn">
+                                </label>
                             </div>
-                            <button class="pay-bill">Pagar</button>
-                        </div>
-                        <div class="bank">
-                            <div class="bank-infos">
-                                <div class="bank-logo-2"></div>
-                                <div class="bills-info">
-                                    <div class="bank-due-date">
-                                        <p class="bank-name">Itaú</p>
-                                        <div class="dot"></div>
-                                        <p class="due-date">Vence dia 05/12</p>
-                                    </div>
-                                    <p class="bill-value">R$600,00</p>
-                                </div>
+                                        <div class="bank d-flex flex-row align-items-center">
+                                            <div class="bank-logo"></div>
+                                            <div class="bank-infos d-flex flex-row align-items-center">
+                                                <div class="name-due-date d-flex flex-row align-items-center">
+                                                    <div class="d-flex flex-column">
+                                                            <p class="font-m bold">Nubank</p>
+                                                        <p class="font-sm">R$400,00</p>
+                                                        <div>
+                                                        </div>
+                                                    </div>
+                                                    <p class="font-xsm">Vence dia 05/12</p>
+                                                </div>
+                                                <button class="btn add-btn"><p class="btn-text c-white font-md">Pagar</p></button>
+                                            </div>
+                                        </div>    
+                                        <div class="bank d-flex flex-row align-items-center">
+                                            <div class="bank-logo2"></div>
+                                            <div class="bank-infos d-flex flex-row align-items-center">
+                                                <div class="name-due-date d-flex flex-row align-items-center">
+                                                    <div class="d-flex flex-column">
+                                                        <p class="font-m bold">Itaú</p>
+                                                        <p class="font-sm">R$600,00</p>
+                                                        <div>
+                                                        </div>
+                                                    </div>
+                                                    <p class="font-xsm">Vence dia 05/12</p>
+                                                </div>
+                                                <button class="btn add-btn"><p class="btn-text c-white font-md">Pagar</p></button>
+                                            </div>
+                                        </div>        
+                                        <div class="total-bill d-flex flex-row">
+                                            <h2 class="font-l">Total</h2>
+                                            <h2 class="font-xl">R$1.000,00</h2>
+                                        </div>              
+                                    
                             </div>
-                            <button class="pay-bill">Pagar</button>
-                        </div>
-                    </div> 
-                    <div class="total-bills">
-                        <h2 class="total">Total</h2>
-                        <h2 class="total-bill-value">R$1.000,00</h2>
-                    </div>              
-                </div>
-                <div class="container-all-balance">
-                    <div class="revenue">
-                        <div class="total-balance-text">
-                            <p class="text-value">Total Receitas</p>
-                            <h2 class="total-value">R$751.980,88</h2>
-                        </div>
-                        <img src="./icones/green-arrow-up.svg">
-                    </div>
-                    <div class="expenses">
-                        <div class="total-balance-text">
-                            <p class="text-value">Total Despesas</p>
-                            <h2 class="total-value">R$748.480,88</h2>
-                        </div>
-                        <img src="./icones/red-arrow-down.svg">
-                    </div>
+                            <div class="total-transations-values d-flex flex-column">
+                                    <div class="total-income d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                            <p>Total Receitas</p>
+                                            <h2>R$751.980,88</h2>
+                                        </div>
+                                        <img src="./icones/green-arrow-up.svg">
+                                    </div>
+                                    <div class="total-revenue d-flex flex-row">
+                                        <div class="d-flex flex-column">
+                                            <p>Total Despesas</p>
+                                            <h2>R$748.480,88</h2>
+                                        </div>
+                                        <img src="./icones/red-arrow-down.svg">
+                                    </div>
+                            </div>
                 </div>
             </div>
-        </div>
-        <div class="container-transactions">
-            <div class="container-transaction border-gradient">
-                <div class="container-recent-transactions">
-                    <p class="container-name">Transações recentes</p>
-                    <div class="container-transactions-history">
-                        <div class="transaction-tittle-infos transaction-infos">
-                            <p class="info">Data</p>
-                            <p class="info">Valor</p>
-                            <p class="info categorie">Categoria</p>
-                            <p class="info description">Descrição</p>
-                            <p class="info">Status</p>
+            <div class="botton-body d-flex flex-column">
+                        <div class="border-gradient ">
+                            <div class="container-recent-transactions d-flex flex-column">
+                                <div>
+                                    <p class="font-xl">Transações recentes</p>
+                                    <div class="d-flex flex-column">
+                                        <div class="container-transaction d-flex flex-row gap-5">
+                                            <p class="date transaction-info flex-row d-flex align-items-center">Data</p>
+                                            <p class="transaction-info flex-row d-flex align-items-center">Valor</p>
+                                            <p class="transaction-info categorie-tittle flex-row d-flex align-items-center">Categoria</p>
+                                            <p class="transaction-info description flex-row d-flex align-items-center">Descrição</p>
+                                            <p class="transaction-info flex-row d-flex align-items-center">Status</p>
+                                        </div>
+                                        <div class="container-transaction d-flex flex-row gap-5">
+                                            <p class="date transaction-info flex-row d-flex align-items-center">30/03/22</p>
+                                            <p class="transaction-info flex-row d-flex align-items-center">R$1.250,00</p>
+                                            <div class="container-categorie  transaction-info flex-row d-flex align-items-center">
+                                                <div class="categorie flex-row d-flex align-items-center">
+                                                    <img src="./icones/shopping-cart.svg">
+                                                    <p class="categorie-text">Supermercado</p>
+                                                </div>
+                                            </div class="transaction-info flex-row d-flex align-items-center">
+                                            <p class="transaction-info description flex-row d-flex align-items-center">Mercado Extra</p>
+                                            <div class="transaction-info flex-row d-flex align-items-center">
+                                                <div class="status expense flex-row d-flex align-items-center">
+                                                    <p class="expense-text">Despesa</p>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="container-transaction d-flex flex-row gap-5">
+                                        <p class="date transaction-info flex-row d-flex align-items-center">30/03/22</p>
+                                        <p class="transaction-info flex-row d-flex align-items-center">R$1.250,00</p>
+                                        <div class="container-categorie transaction-info flex-row d-flex align-items-center">
+                                            <div class=" categorie flex-row d-flex align-items-center">
+                                                <img src="./icones/trending-up.svg">
+                                                <p class="categorie-text">Investimentos</p>
+                                            </div>
+                                        </div>
+                                        <p class="transaction-info description flex-row d-flex align-items-center">Dividendos</p>
+                                        <div class="transaction-info flex-row d-flex align-items-center">
+                                            <div class="status income flex-row d-flex align-items-center">
+                                                <p class="income-text">Receita</p>
+                                            </div>
+                                        </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="transaction-infos">
-                            <p class="info">30/03/22</p>
-                            <p class="info">R$1.250,00</p>
-                            <div class="info categorie"><div class="container-categorie"><img src="./icones/shopping-cart.svg"><p class="categorie-text">Supermercado</p></div></div>
-                            <p class="info description">Mercado Extra</p>
-                            <div class="info"><div class="status expense"><p>Despesa</p></div></div>
                     </div>
-                    <div class="transaction-infos">
-                        <p class="info">30/03/22</p>
-                        <p class="info">R$1.250,00</p>
-                        <div class="info categorie"><div class="container-categorie"><img src="./icones/trending-up.svg"><p class="categorie-text">Investimentos</p></div></div>
-                        <p class="info description">Dividendos</p>
-                        <div class="info"> <div class="status income"><p>Receita</p></div></div>
-                </div>
-                </div>
-            </div>
         </div>
-        </div>
-    </div>
+    </div>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
